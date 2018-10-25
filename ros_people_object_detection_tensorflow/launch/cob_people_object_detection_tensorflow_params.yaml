@@ -1,0 +1,17 @@
+# name of the object detection model
+model_name: "ssd_mobilenet_v1_coco_2017_11_17"
+
+# number of classes in dataset
+num_of_classes: 90
+
+# name of the label pbtxt file
+label_file: "mscoco_label_map.pbtxt"
+
+# Set your RGB image topic here, default is for openni2
+camera_namespace: "/kinect2/qhd/image_color"
+
+# Set your depth image topic here, default is for openni2
+depth_namespace: "/kinect2/sd/image_depth"
+
+# Video name, if you provide a video name with path algorithm will run on it, otherwise write "no" for getting from camera
+video_name: "no"
